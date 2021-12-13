@@ -10,12 +10,12 @@ import GitHub from './components/images/GitHub_logo.png'
 // const store = createStore();
 
 function App() {
+
+  // ---------- Save Username ------------//
+
   const [username, setUsername] = useState("Player")
   useEffect(() => {
     localStorage.setItem('username', JSON.stringify(username));
-    // const save = localStorage.getItem('username');
-    // const savedName = JSON.parse(save);
-    
   }, [username])
 
 

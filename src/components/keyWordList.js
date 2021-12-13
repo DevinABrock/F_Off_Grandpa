@@ -467,8 +467,8 @@ const keyWord = [
 
     // Cheat Code Phrases
     {
-        word: "dougie!",
-        score: 100
+    word: "dougie!",
+    score: 100
     },
 
 ]

@@ -39,8 +39,6 @@ export function scoringGrandpa(grandpaText) {
 }
 
 
-//---------Rounds----------//
-
 
 
 
