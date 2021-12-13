@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400');
+
+.matchHistoryContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.MatchHistoryBodyArea{
+    display: flex;
+    height: 100%;
+}
+.matchHistoryTitle{
+    font-size: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.matchHistoryArea{
+    background-color: #3B8222;
+    height: 400px;
+    width: 900px;
+    border-radius: 20px;
+    overflow-y: scroll;
+    margin-left: 80px;
+}
+.matchHistoryCard{
+    width: 100%;
+    height: 200px;
+    background-color: #80B40A;
+    
+}
+.matchHistoryCard2{
+    width: 100%;
+    height: 200px;
+    background-color: #3B8222;
+    
+}
+.matchCardArea{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.grampPoints{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+.winLose{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+.playerPoints{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.matchHistoryStartBtn{
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.matchHistoryGrandpa{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

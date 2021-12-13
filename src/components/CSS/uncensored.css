@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Anton');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400');
+
+.body{
+margin: 0;
+background-image: url('../images/park_background.jpg');
+background-size: 100%;
+background-color: tomato;
+height: 94vh;
+overflow: hidden;
+}
+
+
+/* CHAT AREA */
+.chatArea{
+/* background-color: tomato; */
+height: 40vh;
+display: flex;
+}
+.chatBubbleSpot{
+  width: 50%;
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.chatBubbleTitle{
+    width: 450px;
+    font-size: 25px;
+    height: 40px;
+    /* background-color: whitesmoke; */
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.scoreText{
+  font-size: 40px;
+}
+.chatbubble{
+    background-color: white;
+    width: 500px;
+    height: 190px;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    /* overflow-y: scroll; */
+}
+.chatbubblePlayer{
+    background-color: white;
+    width: 500px;
+    height: 190px;
+    border-radius: 30px;
+    font-size: 20px;
+    /* overflow-y: scroll; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chatbubbleInput{
+    background-color: white;
+    width: 98%;
+    height: 60%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-size: 20px;
+    border-style: none;
+    padding-left: 10px;
+    margin-bottom: 4px;
+    margin-top: 5px;
+
+}
+.gameSubmit{
+  background-color: #9CBE10;
+  border-color: white;
+  width: 98%;
+  height: 33%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-weight: bold;
+}
+.gameSubmit:hover{
+  color: #FEFBD8;
+}
+
+
+/* CHARACTER AREA */
+.characterArea{
+/* background-color: wheat; */
+height: 60vh;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+padding-left: 150px;
+padding-right: 150px;
+}
+.meanGrandpa{
+  height: 500px;
+}
+.playerGrandpa{
+  height: 300px;
+}
+.playerGrandpa:hover{
+  height: 335px;
+}
+
+.roundArea{
+  height: 100vh;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+}
+.roundText{
+  font-size: 70px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+}
+.roundCall{
+  font-size: 50px;
+}
+.roundPastScore{
+  font-size: 30px;
+  margin-bottom: 200px;
+}

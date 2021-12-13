@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=anton');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400');
+
+.pageContainer{
+  display: flex;
+  height: 94vh;
+
+}
+.socialSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.contactArea{
+
+}
+.ContactTitle{
+  font-size: 25px;
+}
+.contactItem{
+  display: flex;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.connectImg{
+  margin-right: 10px;
+  height: 30px;
+}
+
+.contactItem:hover{
+  color: #5E9909;
+}
+
+
+.menuSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.menuTitle{
+  font-size: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.menuSubTitle{
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.inputArea{
+  background-color: white;
+  margin-bottom: 150px;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.menuNameInput{
+  border-color: white;
+  border-style: none;
+  width: 300px;
+  height: 30px;
+}
+.menuNameSubmit{
+  border-color: white;
+  background-color: #9CBE10;
+  border-style: none;
+  /* color: white; */
+  height: 40px;
+  width: 80px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  font-weight: bold;
+}
+.menuNameSubmit:hover{
+  color: #FEFBD8;
+}
+.menuStartButton{
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.menuTopRoastButton{
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.menuStartButton:hover{
+  color: #EBF5DC;
+}
+.menuTopRoastButton:hover{
+  color: #EBF5DC;
+}
+
+
+
+.ruleSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding-top: 450px;
+  padding-left: 20px;
+}
+.ruleArea{
+  background-color: #3D7E22;
+  border-radius: 20px;
+  height: 200px;
+  width: 500px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.ruleTitle{
+  font-size: 30px;
+  color: #EBF5DC;
+}
+.rulePoint{
+  font-size: 20px;
+  color: #EBF5DC;
+}
+
