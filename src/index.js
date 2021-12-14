@@ -9,8 +9,8 @@ import App from './App';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import BaseLayout from './components/layout/BaseLayout'
 import Sample from './components/Sample'
-import MatchHistory from './components/MatchHistory.js'
-import Uncensored from './components/Uncensored.js';
+import Credits from './components/credits.js'
+import Game from './components/game.js';
 
 
 const saveToLocalStorage = (reduxGlobalState) => {
@@ -55,8 +55,8 @@ ReactDOM.render(
         <BaseLayout>
           <Routes>
             <Route path='/' element={<App />} />
-            <Route path='/uncensored' element={<Uncensored />} />
-            <Route path='/match-history' element={<MatchHistory />} />
+            <Route path='/game' element={<Game />} />
+            <Route path='/credits' element={<Credits />} />
           </Routes>
         </BaseLayout>
       </Router>

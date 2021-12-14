@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import './CSS/uncensored.css'
+import './CSS/game.css'
 import roastList from './roastList'
 import { randomNumber, scoring, scoringGrandpa, roundCounter, gameOver } from './functions'
 import MeanGrandpa from './images/mean_grandpa.png'

@@ -47,9 +47,9 @@ function App() {
             value={username}
             onChange={(e)=> setUsername(e.target.value)}
             />
-            <Link className="navbarOption" to='/uncensored'><button className="menuNameSubmit" type="Submit">Begin</button></Link>
+            <Link className="navbarOption" to='/game'><button className="menuNameSubmit" type="Submit">Begin</button></Link>
           </form>
-          <Link className="menuStartButton" to='/match-history'><a href="/uncensored" className="menuStartButton"><b>Match History</b></a></Link>
+          <Link className="menuStartButton" to='/credits'><a href="/uncensored" className="menuStartButton"><b>Credits</b></a></Link>
 
         </div>
           <div className="socialSection">

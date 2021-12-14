@@ -7,8 +7,8 @@ function Header() {
         <div className="navbarContainer">
             <Link to='/' className="navbarTitle">F*** OFF</Link>
             <div className="navbarOptionContainer">
-                <Link className="navbarOption" to='/uncensored'>Start Game</Link>
-                <Link className="navbarOption" to='/match-history'>Match History</Link>
+                <Link className="navbarOption" to='/game'>Start Game</Link>
+                <Link className="navbarOption" to='/credits'>Credits</Link>
             </div>
         </div>
     )
