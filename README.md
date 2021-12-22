@@ -24,11 +24,11 @@ insults come from FOAAS API.
 
 ### What I used to create this masterpiece:
 
-- Languages:
   - React
   - Javascript
   - HTML
-  - CSS (Flexbox)
+  - CSS 
+  - Flexbox
 
-- APIs:
+- API:
   - https://www.foaas.com/
