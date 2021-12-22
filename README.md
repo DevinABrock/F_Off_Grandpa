@@ -16,9 +16,13 @@ This is a solo project I built in react. It is designed with CSS and
 Flexbox. The logic for the game was written in JavaScript and the
 insults come from FOAAS API.
 
+### Gameplay
+Go back and forth with grandpa. He has over 40 different lines.
 ![Alt text](src/components/images/ss2.png)
 <br/>
 
+### Scoring
+Insults are scored by the disrespect rating system. This system takes in keywords and scores them with there own pre-set score.
 ![Alt text](src/components/images/ss3.png)
 <br/>
 
