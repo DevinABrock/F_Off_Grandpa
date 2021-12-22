@@ -11,7 +11,7 @@ Insults are scored by the disrespect rating system. This system takes in keyword
 
 Give it a try.
 
-### Have a look
+### Have a look.
 This is a solo project I built in react. It is designed with CSS and
 Flexbox. The logic for the game was written in JavaScript and the
 insults come from FOAAS API.
@@ -22,7 +22,7 @@ insults come from FOAAS API.
 ![Alt text](src/components/images/ss3.png)
 <br/>
 
-### What did I use to create this masterpiece 
+### What I used to create this masterpiece:
 
 - Languages:
   - React
