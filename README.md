@@ -7,7 +7,7 @@
 
 ### So What's Going On?
 F*** Off Grandpa is a roasting tournament between two elderly men. They go through 3 round matches delivering insults.
-Insults are scored by the disrespect rating system. This system takes in keywords and scores them with there own set score.
+Insults are scored by the disrespect rating system. This system takes in keywords and scores them with there own pre-set score.
 
 Give it a try.
 
