@@ -2,7 +2,8 @@
 
 **Old Man Roast Match!**
 
-(Intro Screenshot)
+![Alt text](src/components/images/ss1.png)
+<br/>
 
 ### So What's Going On?
 F*** Off Grandpa is a roasting tournament between two elderly men. They go through 3 round matches delivering insults.
