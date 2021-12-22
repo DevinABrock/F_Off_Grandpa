@@ -10,14 +10,17 @@ F*** Off Grandpa is a roasting tournament between two elderly men. They go throu
 Insults are scored by the disrespect rating system. This system takes in keywords and scores them with there own set score.
 
 Give it a try.
-(link)
 
 ### Have a look
 This is a solo project I built in react. It is designed with CSS and
 Flexbox. The logic for the game was written in JavaScript and the
 insults come from FOAAS API.
 
-(screenshots)
+![Alt text](src/components/images/ss2.png)
+<br/>
+
+![Alt text](src/components/images/ss3.png)
+<br/>
 
 ### What did I use to create this masterpiece 
 
